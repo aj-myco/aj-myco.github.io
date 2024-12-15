@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aj Myco</title>
+    <title>Aj Myco Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="profile/131.jpg" type="image/jpeg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#tech-stack">Tech Stack</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Switch to light mode">Switch Mode</button>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="about" class="section">
+                <center>
+                <h1>About Me</h1>
+                </center>
+                <img src="profile/131.jpg" alt="Profile Picture" class="profile-picture">
+                <p>Hello I am Aj Myco, a 2nd-year BSIT student at EVSU</p>
+            </section>
+
+            <section id="projects" class="section">
+                <center>
+                <h1>My Projects</h1>
+                </center>
+                <ul>
+                    <li>
+                        <h3>Portfolio Website</h3>
+                        <img src="project/1.png" alt="Portfolio Website Screenshot" class="project-image">
+                        <p>This is my first project portfolio website</p>
+                        <a href="https://github.com/aj-myco/aj-myco.github.io.git" target="_blank" class="view-project-btn">View Project</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="tech-stack" class="section">
+                <center>
+                <h1>Tech Stack</h1>
+                </center>
+                <ul class="tech-icons">
+                    <li><img src="icons/html.png" alt="HTML5 Logo" class="tech-logo"></li>
+                    <li><img src="icons/css.png" alt="CSS3 Logo" class="tech-logo"></li>
+                    <li><img src="icons/python.png" alt="Python Logo" class="tech-logo"></li>
+                    <li><img src="icons/js.png" alt="JavaScript Logo" class="tech-logo"></li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section">
+                <center>
+                <h1>Contact Me</h1>
+                </center>
+                <p>Feel free to reach out to me via email or connect with me on social media:</p>
+                <div class="contact-container">
+                    <a href="mailto:ajestor18@gmail.com" target="_blank" class="contact-item">
+                        <i class="fa fa-envelope"></i> Gmail
+                    </a>
+                    <a href="https://www.facebook.com/AjMycoEstor" target="_blank" class="contact-item">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="https://github.com/aj-myco" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>● Aj Myco Portfolio Website 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
